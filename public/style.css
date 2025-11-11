@@ -1,0 +1,27 @@
+/* สไตล์พื้นฐานและ Dark Mode */
+:root {
+    --primary-bg: #ffffff;
+    --primary-text: #333333;
+    --secondary-bg: #f4f4f4;
+    --border-color: #dddddd;
+    --accent-color: #007bff;
+}
+
+[data-theme="dark"] {
+    --primary-bg: #1a1a2e;
+    --primary-text: #e0e0e0;
+    --secondary-bg: #16213e;
+    --border-color: #2a3a5e;
+    --accent-color: #3a86ff;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    background-color: var(--primary-bg);
+    color: var(--primary-text);
+    margin: 0;
+    padding: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* เพิ่มสไตล์อื่นๆ ที่นี่ */
